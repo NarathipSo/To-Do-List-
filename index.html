@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">  
+    <title>Narathip's To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+</head>
+<body>
+
+    <!-- Title -->
+    <div class="title">
+        <h1>Narathip's To-Do List</h1>
+    </div>
+
+    <!-- Todolist -->
+    <div class="wrapper">
+        <div class="task-input">
+        <input type="text" placeholder="What am I going to do today?">
+        </div>
+        <div class="controls">
+            <div class="filters">
+                <span class="active" id="all">All</span>
+                <span id="pending">Pending</span>
+                <span id="completed">Completed</span>
+            </div>
+            <button class="clear-btn">Clear All</button>
+        </div>
+        <ul class="task-box"></ul>
+    </div>
+    
+    <!-- Javascript -->
+    <script src="main.js"></script>
+</body>
+</html>
